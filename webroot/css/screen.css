@@ -1,0 +1,441 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+* html {
+  font-size: 87.5%;
+}
+
+html {
+  font-size: 14px;
+  line-height: 1.42857em;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  color: black;
+}
+
+a {
+  text-decoration: underline;
+  color: #006699;
+}
+
+.menu.first a:hover {
+  border-bottom: 0;
+}
+
+h2 {
+  font-size: 2.28571em;
+  line-height: 1.25em;
+}
+h2 a {
+  font-size: 0.34375em;
+  line-height: 1.81818em;
+}
+
+h3 {
+  font-size: 1.14286em;
+  line-height: 1.25em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.header {
+  padding-top: 25px;
+  height: 175px;
+}
+.header .logo img {
+  margin-top: -13px;
+}
+.header span {
+  color: #666666;
+  font-size: 0.71429em;
+  line-height: 2em;
+  display: block;
+  width: 130px;
+  line-height: 130%;
+}
+.header .call {
+  position: relative;
+}
+.header .call .request_form {
+  position: absolute;
+  width: 220px;
+  padding: 25px;
+  background: #deefff;
+  z-index: 10;
+  top: 60px;
+  left: -25px;
+}
+.header .call .request_form .cancel {
+  margin-left: 20px;
+}
+.header .call a {
+  font-size: 0.92857em;
+  line-height: 1.53846em;
+  line-height: 130%;
+  color: #006699;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px dotted #006699;
+}
+.header .call span {
+  color: #666666;
+  font-size: 0.76923em;
+  line-height: 1.33333em;
+}
+.header .phones {
+  font-size: 1em;
+  line-height: 1.42857em;
+  font-weight: bold;
+  color: #666666;
+}
+.header .phones span {
+  font-size: 0.71429em;
+  line-height: 2em;
+}
+.header .social {
+  background: #dff3ff;
+  border-radius: 5px;
+  padding: 6px 6px 6px 0;
+  height: 24px;
+}
+.header .social a {
+  padding-left: 6px;
+  float: left;
+}
+
+.search {
+  float: right;
+}
+
+.menu {
+  list-style-type: none;
+}
+.menu li {
+  float: left;
+}
+.menu.first {
+  margin: 0;
+}
+.menu.first a {
+  font-size: 0.92857em;
+  line-height: 1.53846em;
+  color: #006699;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px solid #006699;
+}
+.menu.langBar {
+  float: right;
+}
+.menu.langBar li a {
+  color: black;
+  font-size: 0.71429em;
+  line-height: 2em;
+  text-decoration: underline;
+  margin-left: 15px;
+}
+.menu.langBar li.active a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.topMenu_wrapper {
+  background: #0d81c8;
+  background: linear-gradient(to bottom, #0d81c8 0%, #0a5fab 100%);
+  width: 100%;
+  position: absolute;
+  top: 123px;
+  z-index: 9;
+}
+
+.affix {
+  position: fixed;
+}
+.affix.topMenu_wrapper {
+  top: 0;
+  width: 100%;
+}
+.affix.service-sidenav {
+  top: 123px;
+  width: 200px;
+}
+
+.space1 {
+  margin-bottom: 1.42857em;
+}
+
+.space2 {
+  margin-bottom: 2.85714em;
+}
+
+.space3 {
+  margin-bottom: 4.28571em;
+}
+
+.topMenu {
+  overflow: hidden;
+}
+.topMenu .span2 {
+  margin-left: 0;
+  padding-left: 10px;
+  margin-bottom: -399px;
+  padding-bottom: 399px;
+}
+.topMenu a {
+  font-size: 1em;
+  line-height: 1.42857em;
+  margin-top: 0em;
+  padding-top: 0.71429em;
+  padding-bottom: 0.71429em;
+  margin-bottom: 0em;
+  display: block;
+  font-weight: bold;
+  font-style: italic;
+  color: #ccffff;
+  width: 130px;
+}
+.topMenu div:hover {
+  background: #0691d9;
+}
+
+.slider {
+  height: 460px;
+}
+
+.footer_wrapper {
+  background: #1b1b1b;
+  margin-top: 2.85714em;
+}
+
+.footer {
+  background: url(/theme/Tes/img/bg_footer.png) no-repeat right top;
+  color: #999999;
+  font-size: 0.71429em;
+  line-height: 2em;
+  padding-top: 16px;
+  height: 70px;
+}
+.footer a, .footer span {
+  font-size: 0.92857em;
+  line-height: 1.53846em;
+  color: white;
+}
+
+.short {
+  padding: 0 0 0 40px;
+}
+.short p {
+  padding: 20px 0 0 40px;
+}
+
+.recent .span {
+  width: 180px;
+  margin: 30px 0 0;
+}
+
+#content h1, #content h3 {
+  font-size: 1.78571em;
+  line-height: 1.2em;
+  margin-bottom: 0.71429em;
+}
+#content ul {
+  margin-bottom: 1.42857em;
+  list-style: disc inside;
+}
+#content ul li {
+  font-size: 1.14286em;
+  line-height: 1.25em;
+}
+
+.service-sidenav li {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.service-sidenav li a {
+  margin-top: 0em;
+  padding-top: 0.71429em;
+  padding-bottom: 0.71429em;
+  margin-bottom: 0em;
+  font-weight: bold;
+}
+.service-sidenav li a:hover {
+  background: #d8e9fb;
+  background: linear-gradient(to bottom, #ffffff 0%, #d8e9fb 25%, #d8e9fb 75%, #ffffff 100%);
+}
+.service-sidenav li.active a, .service-sidenav li.active a:hover {
+  color: #006699;
+  background: #d8e9fb;
+  text-decoration: none;
+}
+
+.iosSlider {
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 960px;
+  height: 460px;
+}
+.iosSlider .prevButton, .iosSlider .nextButton {
+  position: absolute;
+  bottom: 0;
+  width: 185px;
+  height: 117px;
+  z-index: 2;
+}
+.iosSlider .prevButton {
+  left: 0;
+  background: url(/img/prev.jpg) no-repeat right 0;
+}
+.iosSlider .nextButton {
+  right: 0;
+  background: url(/img/next.jpg) no-repeat left 0;
+}
+.iosSlider .slider {
+  width: 100%;
+  height: 100%;
+}
+.iosSlider .slider .item {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 960px;
+  height: 460px;
+  margin: 0;
+}
+.iosSlider .slider .item .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 460px;
+}
+.iosSlider .slider .item .image .bg {
+  border: 10px solid black;
+  border-right: 0;
+  height: 180px;
+  width: 340px;
+  opacity: 0.5;
+  display: none;
+}
+.iosSlider .slider .item .text {
+  background: rgba(0, 61, 143, 0.8);
+  position: absolute;
+  bottom: 0;
+  right: 185px;
+  width: 470px;
+  height: 193px;
+  padding: 30px 60px;
+}
+
+.iphoneUI .iosSlider .slider .item .text {
+  display: none;
+}
+
+.iphoneUI .iosSlider .slider .item .text .bg {
+  display: none;
+}
+
+.iosSlider .slider .item .title {
+  position: relative;
+  top: 0;
+  left: 0;
+  text-indent: -1px;
+}
+
+.iosSlider .slider .item .title span {
+  color: white;
+  font-size: 1.28571em;
+  line-height: 2.22222em;
+  font-style: italic;
+  text-shadow: 0 -1px 1px black;
+}
+
+.iosSlider .slider .item .desc {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 10px 0 0 0;
+}
+
+.iosSlider .slider .item .desc span {
+  color: white;
+  font-size: 2.28571em;
+  line-height: 1.25em;
+  font-weight: bold;
+  line-height: 150%;
+}
+
+.iosSlider .slider .item .button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  padding: 0 10px 0 10px;
+  margin: 10px 0 0 0;
+  background: #aaaaaa;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.iosSlider .slider .item .button span {
+  color: black;
+  font: normal 14px/30px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: 0 1px 1px white;
+}

@@ -1,0 +1,202 @@
+body
+	font-family: 'PT Sans', sans-serif
+	color: $black
+
+a
+	text-decoration: underline
+	color: $dark_blue
+
+.menu.first a:hover
+	border-bottom: 0
+
+h2
+	@include adjust-font-size-to(32px)
+	a
+		@include adjust-font-size-to(11px,1,32px)
+
+h3
+	@include adjust-font-size-to(16px)
+
+#{headings()}
+	font-weight: 700
+
+
+.header
+	padding-top: 25px
+	height: 175px
+	.logo
+		img
+			margin-top: -13px
+	span
+		color: $dark_gray
+		@include adjust-font-size-to(10px)
+		display: block
+		width: 130px
+		line-height: 130%
+	.call
+		position: relative
+		.request_form
+			position: absolute
+			width: 220px
+			padding: 25px
+			background: rgb(222,239,255)
+			z-index: 10
+			top: 60px
+			left: -25px
+			.cancel
+				margin-left: 20px
+		a
+			@include adjust-font-size-to(13px)
+			line-height: 130%
+			color: $dark_blue
+			font-weight: bold
+			text-decoration: none
+			border-bottom: 1px dotted $dark_blue
+		span
+			color: $dark_gray
+			@include adjust-font-size-to(10px, 2/3, 13px)
+	.phones
+		@include adjust-font-size-to(14px)
+		font-weight: bold
+		color: $dark_gray
+		span
+			@include adjust-font-size-to(10px, 1, 14px)
+	.social
+		background: #dff3ff
+		border-radius: 5px
+		padding: 6px 6px 6px 0
+		height: 24px
+		a
+			padding-left: 6px
+			float: left
+
+.search
+	float: right
+
+.menu
+	list-style-type: none
+	li
+		float: left
+	&.first
+		margin: 0
+		a
+			@include adjust-font-size-to(13px)
+			color: $dark_blue
+			font-weight: bold
+			text-decoration: none
+			border-bottom: 1px solid $dark_blue
+	&.langBar
+		float: right
+		li
+			a
+				color: black
+				@include adjust-font-size-to(10px)
+				text-decoration: underline
+				margin-left: 15px
+		li.active
+			a
+				color: $dark_gray
+				text-decoration: none
+
+.topMenu_wrapper
+	background: #0d81c8
+	background: linear-gradient(to bottom, #0d81c8 0%,#0a5fab 100%)
+	width: 100%
+	position: absolute
+	top: 123px
+	z-index: 9
+
+.affix
+	position: fixed
+	&.topMenu_wrapper
+		top: 0
+		width: 100%
+	&.service-sidenav
+		top: 123px
+		width: 200px
+
+.space1
+	@include margin-trailer(1)
+
+.space2
+	@include margin-trailer(2)
+
+.space3
+	@include margin-trailer(3)
+
+.topMenu
+	overflow: hidden
+	.span2
+		margin-left: 0
+		padding-left: 10px
+		margin-bottom: -399px
+		padding-bottom: 399px
+	a
+		@include adjust-font-size-to(14px)
+		@include rhythm(0,1/2,1/2,0,14px)
+		display: block
+		font-weight: bold
+		font-style: italic
+		color: #ccffff
+		width: 130px
+	div:hover
+		background: #0691d9
+
+.slider
+	height: 460px
+
+
+.footer_wrapper
+	background: #1b1b1b
+	@include margin-leader(2)
+
+.footer
+	background: url(#{$img}/bg_footer.png) no-repeat right top
+	color: #999999
+	// font-weight: bold
+	@include adjust-font-size-to(10px)
+	padding-top: 16px
+	height: 70px
+	a, span
+		@include adjust-font-size-to(13px)
+		color: white
+
+
+
+.short
+	padding: 0 0 0 40px
+	p
+		padding: 20px 0 0 40px
+
+.recent
+	.span
+		width: 180px
+		margin: 30px 0 0
+
+#content
+	h1, h3
+		@include adjust-font-size-to(25px, 1.5, 14px)
+		@include margin-trailer(1/2)
+	ul
+		@include margin-trailer(1)
+		list-style: disc inside
+		li
+			@include adjust-font-size-to(16px, 1, 14px)
+
+.service-sidenav
+	li
+		padding-top: 0
+		padding-bottom: 0
+		a
+			@include rhythm(0,1/2,1/2,0)
+			font-weight: bold
+		a:hover
+			background: #d8e9fb
+			background: linear-gradient(to bottom, #ffffff 0%,#d8e9fb 25%,#d8e9fb 75%,#ffffff 100%)
+	li.active
+		a,a:hover
+			color: $dark_blue
+			background: #d8e9fb
+			text-decoration: none
+		
+

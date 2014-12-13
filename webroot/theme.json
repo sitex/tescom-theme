@@ -1,0 +1,23 @@
+{
+	"name" : "Tes",
+	"description" : "Tes theme for Croogo",
+	"screenshot" : "/screenshot.jpg",
+
+	"author" : "Sitex",
+	"authorEmail" : "gsitex@gmail.com",
+	"authorUrl" : "http://sitex.kz",
+
+	"menus" : [
+		"main",
+		"footer"
+		],
+
+	"regions" : [
+		"left",
+		"right",
+		"center",
+		"none",
+		"main-slider",
+		"cart-info"
+		]
+}
