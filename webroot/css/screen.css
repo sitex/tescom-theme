@@ -50,17 +50,13 @@ a img {
   border: none;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-* html {
-  font-size: 87.5%;
-}
-
 html {
-  font-size: 14px;
-  line-height: 1.42857em;
+  font-size: 87.5%;
+  line-height: 1.4285714286em;
 }
 
 body {
@@ -78,16 +74,16 @@ a {
 }
 
 h2 {
-  font-size: 2.28571em;
+  font-size: 2.2857142857em;
   line-height: 1.25em;
 }
 h2 a {
   font-size: 0.34375em;
-  line-height: 1.81818em;
+  line-height: 1.8181818182em;
 }
 
 h3 {
-  font-size: 1.14286em;
+  font-size: 1.1428571429em;
   line-height: 1.25em;
 }
 
@@ -104,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header span {
   color: #666666;
-  font-size: 0.71429em;
+  font-size: 0.7142857143em;
   line-height: 2em;
   display: block;
   width: 130px;
@@ -126,8 +122,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 20px;
 }
 .header .call a {
-  font-size: 0.92857em;
-  line-height: 1.53846em;
+  font-size: 0.9285714286em;
+  line-height: 1.5384615385em;
   line-height: 130%;
   color: #006699;
   font-weight: bold;
@@ -136,17 +132,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header .call span {
   color: #666666;
-  font-size: 0.76923em;
-  line-height: 1.33333em;
+  font-size: 0.7692307692em;
+  line-height: 1.3333333333em;
 }
 .header .phones {
   font-size: 1em;
-  line-height: 1.42857em;
+  line-height: 1.4285714286em;
   font-weight: bold;
   color: #666666;
 }
 .header .phones span {
-  font-size: 0.71429em;
+  font-size: 0.7142857143em;
   line-height: 2em;
 }
 .header .social {
@@ -174,8 +170,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 .menu.first a {
-  font-size: 0.92857em;
-  line-height: 1.53846em;
+  font-size: 0.9285714286em;
+  line-height: 1.5384615385em;
   color: #006699;
   font-weight: bold;
   text-decoration: none;
@@ -186,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .menu.langBar li a {
   color: black;
-  font-size: 0.71429em;
+  font-size: 0.7142857143em;
   line-height: 2em;
   text-decoration: underline;
   margin-left: 15px;
@@ -218,15 +214,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .space1 {
-  margin-bottom: 1.42857em;
+  margin-bottom: 1.4285714286em;
 }
 
 .space2 {
-  margin-bottom: 2.85714em;
+  margin-bottom: 2.8571428571em;
 }
 
 .space3 {
-  margin-bottom: 4.28571em;
+  margin-bottom: 4.2857142857em;
 }
 
 .topMenu {
@@ -240,10 +236,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .topMenu a {
   font-size: 1em;
-  line-height: 1.42857em;
+  line-height: 1.4285714286em;
   margin-top: 0em;
-  padding-top: 0.71429em;
-  padding-bottom: 0.71429em;
+  padding-top: 0.7142857143em;
+  padding-bottom: 0.7142857143em;
   margin-bottom: 0em;
   display: block;
   font-weight: bold;
@@ -261,20 +257,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer_wrapper {
   background: #1b1b1b;
-  margin-top: 2.85714em;
+  margin-top: 2.8571428571em;
 }
 
 .footer {
   background: url(/theme/Tes/img/bg_footer.png) no-repeat right top;
   color: #999999;
-  font-size: 0.71429em;
+  font-size: 0.7142857143em;
   line-height: 2em;
   padding-top: 16px;
   height: 70px;
 }
 .footer a, .footer span {
-  font-size: 0.92857em;
-  line-height: 1.53846em;
+  font-size: 0.9285714286em;
+  line-height: 1.5384615385em;
   color: white;
 }
 
@@ -291,16 +287,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #content h1, #content h3 {
-  font-size: 1.78571em;
+  font-size: 1.7857142857em;
   line-height: 1.2em;
-  margin-bottom: 0.71429em;
+  margin-bottom: 0.7142857143em;
 }
 #content ul {
-  margin-bottom: 1.42857em;
+  margin-bottom: 1.4285714286em;
   list-style: disc inside;
 }
 #content ul li {
-  font-size: 1.14286em;
+  font-size: 1.1428571429em;
   line-height: 1.25em;
 }
 
@@ -310,8 +306,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .service-sidenav li a {
   margin-top: 0em;
-  padding-top: 0.71429em;
-  padding-bottom: 0.71429em;
+  padding-top: 0.7142857143em;
+  padding-bottom: 0.7142857143em;
   margin-bottom: 0em;
   font-weight: bold;
 }
@@ -342,11 +338,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .iosSlider .prevButton {
   left: 0;
-  background: url(/img/prev.jpg) no-repeat right 0;
+  background: url(../img/prev.jpg) no-repeat right 0;
 }
 .iosSlider .nextButton {
   right: 0;
-  background: url(/img/next.jpg) no-repeat left 0;
+  background: url(../img/next.jpg) no-repeat left 0;
 }
 .iosSlider .slider {
   width: 100%;
@@ -368,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 460px;
 }
 .iosSlider .slider .item .image .bg {
-  border: 10px solid black;
+  border: 10px solid #000;
   border-right: 0;
   height: 180px;
   width: 340px;
@@ -401,11 +397,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .iosSlider .slider .item .title span {
-  color: white;
-  font-size: 1.28571em;
-  line-height: 2.22222em;
+  color: #fff;
+  font-size: 1.2857142857em;
+  line-height: 2.2222222222em;
   font-style: italic;
-  text-shadow: 0 -1px 1px black;
+  text-shadow: 0 -1px 1px #000;
 }
 
 .iosSlider .slider .item .desc {
@@ -416,8 +412,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .iosSlider .slider .item .desc span {
-  color: white;
-  font-size: 2.28571em;
+  color: #fff;
+  font-size: 2.2857142857em;
   line-height: 1.25em;
   font-weight: bold;
   line-height: 150%;
@@ -429,13 +425,13 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 20px;
   padding: 0 10px 0 10px;
   margin: 10px 0 0 0;
-  background: #aaaaaa;
-  border: 1px solid black;
+  background: #aaa;
+  border: 1px solid #000;
   cursor: pointer;
 }
 
 .iosSlider .slider .item .button span {
-  color: black;
+  color: #000;
   font: normal 14px/30px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-shadow: 0 1px 1px white;
+  text-shadow: 0 1px 1px #fff;
 }
